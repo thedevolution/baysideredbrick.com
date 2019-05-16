@@ -8,6 +8,7 @@ section.pricing {
     transition: all 0.2s;
     box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
     background: rgba(198, 201, 206, 0.4);
+    height: 955px;
   }
   
   .pricing hr {
@@ -58,6 +59,14 @@ section.pricing {
     }
     .pricing .card:hover .btn {
       opacity: 1;
+    }
+
+        
+  }
+
+  @media (max-width: 575.98px) {
+    .pricing .card {
+      height: auto;
     }
   }
 
