@@ -92,5 +92,8 @@ section.pricing {
     }
     .welcome {
       font-size: 20px;
+    }
+    header.masthead {
+      background-position: 19%;
     }    
   }
