@@ -78,3 +78,19 @@ section.pricing {
 		1px 1px 0 #000;    
   }
   
+  .address {
+    font-size: 28px;
+  }
+
+  .welcome {
+    font-size: 28px;
+  }
+
+  @media (max-width: 575.98px) {
+    .address {
+      font-size: 18px;
+    }
+    .welcome {
+      font-size: 20px;
+    }    
+  }
